@@ -1,0 +1,12 @@
+.input-link-error {
+    position: absolute;
+    top: 196px;
+    left: 36px;
+}
+
+@media screen and (max-width: 559px) {
+    .input-link-error {
+        top: 207px;
+        left: 22px;
+    }
+}

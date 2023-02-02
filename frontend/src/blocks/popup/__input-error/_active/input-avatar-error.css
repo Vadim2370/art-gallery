@@ -1,0 +1,12 @@
+.input-avatar-error {
+    position: absolute;
+    top: 138px;
+    left: 36px;
+}
+
+@media screen and (max-width: 559px) {
+    .input-avatar-error {
+        top: 150px;
+        left: 22px;
+    }
+}

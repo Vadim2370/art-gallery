@@ -1,0 +1,36 @@
+{
+  "name": "express-mesto-gha",
+  "version": "1.0.0",
+  "description": "Проект Mesto фронтенд + бэкенд",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint .",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "deploy": "scp -r ./controllers ./errors ./middlewares ./models ./routes ./utils  app.js .env package.json package-lock.json vadim2370@84.252.137.26:~/mesto/backend"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "celebrate": "^15.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.5.1",
+    "express-winston": "^4.2.0",
+    "helmet": "^5.1.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.6",
+    "multer": "^1.4.5-lts.1",
+    "validator": "^13.7.0",
+    "winston": "^3.8.1"
+  }
+}

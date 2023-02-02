@@ -1,0 +1,11 @@
+.profile__discription {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+@media screen and (max-width: 559px) {
+  .profile__discription {
+    /*width: 244px;*/
+  }
+}

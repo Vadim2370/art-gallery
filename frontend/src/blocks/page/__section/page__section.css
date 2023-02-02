@@ -1,0 +1,12 @@
+.page__section {
+  max-width: 880px;
+  /*min-width: 320px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Inter", Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;*/
+}

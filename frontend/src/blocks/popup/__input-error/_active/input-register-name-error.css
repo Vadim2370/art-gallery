@@ -1,0 +1,11 @@
+.input-register-name-error {
+    width: 358px;
+    position: absolute;
+    top: 107px;
+}
+
+@media screen and (max-width: 559px) {
+    .input-register-name-error {
+      width: 238px;
+    }
+  }

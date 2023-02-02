@@ -1,0 +1,7 @@
+.element__like-count {
+    /*height: 13px;*/
+    font-size: 13px;
+    line-height: 15px;
+    color: black;
+    margin-top: 3px;
+}
